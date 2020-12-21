@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTI - Larsen & Toubro Infotech</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to LTI</h1>    
+    </div>
+    <div class="topnav">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="UserList">User-List</a>
+         <li><img src="image/lti.jpg" style="float: right; padding-right: 20px; height:50px"></li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="main">
+          <div class="card">
+			<h2 style="text-align: center;">Register to explore amazing career opportunities</h2>
+            <!--<form onsubmit="validate();">-->
+			<form action="register" method="post">
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <label for="email"><b>Email Address</b></label>
+                  <input type="email" placeholder="Enter Email Address" name="email" required>
+              
+                  <label for="city"><b>City</b></label>
+                  <input type="text" placeholder="Enter City" name="city" required>
+              
+                  <label for="mobile"><b>Mobile No.</b></label>
+                  <input type="tel" placeholder="Enter Mobile Number" name="mobile"  id="mobile" required>
+				  <span id="mbError" style="color:red"></span>
+
+                  <button type="submit">Register</button>
+                </div>
+              </form>
+          </div>
+        </div>
+     </div>
+      
+      
+      <div class="footer">
+        <p>© 2020 Larsen & Toubro Infotech Limited</p>
+      </div>       
+</body>
+</html>
