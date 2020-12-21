@@ -1,0 +1,185 @@
+ *{
+    box-sizing: border-box; /*it will be a box and content will be asjusted*/
+    font-family: 'Muli', 'Baloo Da 2', 'Montserrat', 'sans-serif';
+ 
+}
+body{
+    font-family: Arail;
+    padding: 10px;
+    background: #f1f1f1;
+}
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  width: 80%;
+  margin: auto; /*used to horizontally center the element within its container*/
+    /*The element will then take up the specified width and the remaining space will be split
+    equally between the left and right margins.*/
+}
+.topnav{
+    overflow: hidden; /*Controls what happens to content that is too big to fit in an area*/
+    background-color: darkblue;
+    width: 80%;
+    margin: auto;
+}
+.topnav ul{
+    list-style-type: none;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none; /*it will remove hyperlink(underline)*/
+    letter-spacing: 1px;
+    height: 70px;
+}
+
+/* .row:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+.main{
+    width: 80%;
+    margin: auto;
+}
+/*add a card effect for articles*/
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.cc{
+    float: left;
+    padding: 5px;  
+}
+img{
+    width: auto;
+    max-width: 205px;
+    height: auto;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+/*************************************************************/
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+ 
+ /* Add padding to containers */
+.container {
+    padding: 16px;
+    width: 350px;
+    margin: auto;
+}
+/* Set a style for all buttons */
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.clickme {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+.danger {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.danger:hover {
+    background-color:#EB003B;
+    color: #FFFFFF;
+}
+.success {
+    background-color:#00EB89;
+    color: #FFFFFF;
+}
+
+.success:hover {
+    background-color:#00D77E;
+    color: #FFFFFF;
+} 
+.warning {
+    background-color:#FFA500;
+    color: #FFFFFF;
+}
+
+.warning:hover {
+    background-color:#EB9800;
+    color: #FFFFFF;
+}
+.info {
+    background-color: #00D4FF;
+    color: #FFFFFF;
+}
+
+.info:hover {
+    background-color: #00C4EB;
+    color: #FFFFFF;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+ }
+
+ /******************************************************/
+ .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /*******************************************************/
+  /**         table Style *********/
+  #customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
