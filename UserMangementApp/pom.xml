@@ -35,7 +35,6 @@
 			<artifactId>jstl</artifactId>
 			<version>1.1.2</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
 			<artifactId>ojdbc6</artifactId>
