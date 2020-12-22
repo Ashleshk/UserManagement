@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 
 	private static final String URL="jdbc:oracle:thin:@localhost:1522:OSE";
-	private static final String USER="hr";
-	private static final String PASS="hr";
+	private static final String USER="system";
+	private static final String PASS="99system";
 	
 	public static Connection getConnection() {
 		try {
